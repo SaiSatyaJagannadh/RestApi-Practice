@@ -1,0 +1,23 @@
+//link for the running swagger 
+http://localhost:5264/swagger/index.html
+
+1.need to add the controller build in program.cs like this 
+
+builder.Services.AddControllers();
+
+
+2. Create the controller directory 
+Create EmployeeController with scaffolding item --> APi Controller Empty
+
+3. Install swashbuckle.swagger,swaggergen, swaggerUI for showing these get, put,post methods work in the front
+http://localhost:5264/swagger/index.html (to open this in web brpwser to check it we need swagger)
+4. Insert this in program after installation 
+builder.Services.AddControllers();
+builder.Services.AddSwaggerGen();
+builder.Services.AddEndpointsApiExplorer();
+var app = builder.Build();
+app.UseSwagger();
+app.MapControllers();
+app.UseSwaggerUI();
+
+5. create the Model folder under that create the Request and response directories 

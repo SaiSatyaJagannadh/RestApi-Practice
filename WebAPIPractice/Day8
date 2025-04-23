@@ -1,0 +1,42 @@
+04/22/2025
+
+
+Method we writing now synchronously 
+
+Sync-- wait for other methods to execute
+Method()
+{
+Method1 10sec
+method2 15 sec 
+method3 5 sec 
+}
+sync 30 secs to run them for above 
+
+
+Async-- parallel mode , this will be finished in 15 secs
+.net core designed for Aync mode 
+
+
+when writing async on
+
+TimeSlicing
+Task1
+Task2
+Task3  
+
+public Task AddEmployee()/public Task AddEmployeeAsync(use this type for .net)
+generic value --public Task<Employee> GetByIdAsync(int id)
+
+
+EmployeeRepositoryAsync
+
+GetByIdAsync(4);--- returns task of the employee 
+await GetByIdAsync(4)l--returns  employee value 
+
+using await means we need to use the async in method writing
+public async Task<Employee> getById(int id)
+await getByIdAsync(id)
+
+when to use the microservice architeture or when to not use it 
+
+

@@ -1,0 +1,17 @@
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/bin/Debug/net9.0/Infrastructure.deps.json
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/bin/Debug/net9.0/Infrastructure.runtimeconfig.json
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/bin/Debug/net9.0/Infrastructure.dll
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/bin/Debug/net9.0/Infrastructure.pdb
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/bin/Debug/net9.0/ApplicationCore.dll
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/bin/Debug/net9.0/ApplicationCore.pdb
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/obj/Debug/net9.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/obj/Debug/net9.0/Infrastr.15EFFBFE.Up2Date
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/obj/Debug/net9.0/Infrastructure.dll
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/obj/Debug/net9.0/refint/Infrastructure.dll
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/obj/Debug/net9.0/Infrastructure.pdb
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/obj/Debug/net9.0/Infrastructure.genruntimeconfig.cache
+/Users/saijagannadh/RiderProjects/WebAPIPractice/Infrastructure/obj/Debug/net9.0/ref/Infrastructure.dll

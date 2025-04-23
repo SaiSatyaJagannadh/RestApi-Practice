@@ -1,0 +1,14 @@
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/bin/Debug/net9.0/ApplicationCore.deps.json
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/bin/Debug/net9.0/ApplicationCore.runtimeconfig.json
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/bin/Debug/net9.0/ApplicationCore.dll
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/bin/Debug/net9.0/ApplicationCore.pdb
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/obj/Debug/net9.0/ApplicationCore.csproj.AssemblyReference.cache
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/obj/Debug/net9.0/ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/obj/Debug/net9.0/ApplicationCore.AssemblyInfoInputs.cache
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/obj/Debug/net9.0/ApplicationCore.AssemblyInfo.cs
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/obj/Debug/net9.0/ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/obj/Debug/net9.0/ApplicationCore.dll
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/obj/Debug/net9.0/refint/ApplicationCore.dll
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/obj/Debug/net9.0/ApplicationCore.pdb
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/obj/Debug/net9.0/ApplicationCore.genruntimeconfig.cache
+/Users/saijagannadh/RiderProjects/WebAPIPractice/ApplicationCore/obj/Debug/net9.0/ref/ApplicationCore.dll

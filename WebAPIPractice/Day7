@@ -1,0 +1,54 @@
+Create the Class library project like ApplicationCore, Infrastructure
+
+we created this for N layer
+web API=I/O operations, middleware
+
+application core = abstraction layer(interfaces, entities, model)
+infrastructure = implementation  repositories, services, dbcontext, automapper
+
+
+Creating the 
+Product catalog--> Id, Name, Qty, UnitPrice, CategoryId, Discount
+Other Catalogs-->
+
+
+Create all the directory file structure 
+
+2. Install the requirements packages on solution
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkcore.design
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.tools
+
+
+3.create the class under enitites
+
+1 product ==>1 Category 
+1 category ==> Many products
+
+4. add the dependences for each project to share in between them 
+like in WebAPICore--> dependencies--> add depenendices add the projects
+
+5. add the Dbset in the infrastructire and applicationcore properties in dbset to 
+add them in dbset class for cerating the tables 
+
+6. add this in the program.cs
+builder.Services.AddDbContext<EcommerceDbContext>(option =>
+{
+    option.UseSqlServer(builder.Configuration.GetConnectionString("ECommerceDB"));
+
+}); after setting the code in appsettings.json and DbContext 
+
+ 
+7. after setup db do this
+ dotnet ef migrations add InitialMigration --startup-project ../WebAPIPractice
+ dotnet ef database update --startup-project ../WebAPIPractice
+
+8.after implementing the code logic 
+9. Add the addscoped in the program.cs
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+
+10. Install the "Automapper" for code redundancy  in WebAPI folder Utility
+builder.Services.AddAutoMapper(typeof(ApplicationMapping)); in program.cs
+

@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  webapipractice:
+    build:
+      context: "/Users/saijagannadh/RiderProjects/WebAPIPractice"
+      dockerfile: "WebAPIPractice/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/WebAPIPractice.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "webapipractice:dev"
+    ports: []
+    volumes:
+    - "/Users/saijagannadh/RiderProjects/WebAPIPractice/WebAPIPractice:/app:rw"
+    - "/Users/saijagannadh/RiderProjects/WebAPIPractice:/src:rw"
+    - "/Users/saijagannadh/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"

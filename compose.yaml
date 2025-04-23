@@ -1,0 +1,6 @@
+﻿services:
+  webapipractice:
+    image: webapipractice
+    build:
+      context: .
+      dockerfile: WebAPIPractice/Dockerfile
