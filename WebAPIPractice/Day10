@@ -1,0 +1,6 @@
+HttpCommunication-->
+
+synchronous -- httpclient 
+asynchronous -- message queue (RabbitMQ, Azure Service Bus)
+
+Customer is placing the order --> Message Queue 

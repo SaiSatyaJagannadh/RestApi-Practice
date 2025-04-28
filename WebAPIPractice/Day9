@@ -1,0 +1,18 @@
+04/24/2025
+
+RabbitMQ-->rabbit message queue
+
+Order Service <-Message Queue(RMQ or Azure Service Bus)-> Inventor Service 
+
+we need to install the rabbitmq from the terminal(mac)
+## docker run -d --hostname rmq --name 
+
+rabbitmq will be there in online
+in the docker images we need to add the rabbitmq
+
+need to setup the code for running in the rabbitmq 
+
+
+BY rabbitmq we can check that how many messages we read in a queue when 
+we post a message like order details like that
+

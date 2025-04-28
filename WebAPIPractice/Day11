@@ -1,0 +1,10 @@
+
+04/25/2025
+JWT Token
+
+Authentication = username, password 
+http== statless protocol
+
+for user authentication -- we will do it by giving valid JWT token.
+
+JWT token -->
