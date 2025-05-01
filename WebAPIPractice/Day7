@@ -39,6 +39,9 @@ builder.Services.AddDbContext<EcommerceDbContext>(option =>
 
 }); after setting the code in appsettings.json and DbContext 
 
+
+//   "ECommerceDB": "Server =localhost; Database=WebAPIPractice; User =sa; Password=Saijagannadh@1;TrustServerCertificate=True"
+
  
 7. after setup db do this
  dotnet ef migrations add InitialMigration --startup-project ../WebAPIPractice

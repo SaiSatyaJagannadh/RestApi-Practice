@@ -4,3 +4,15 @@
     build:
       context: .
       dockerfile: WebAPIPractice/Dockerfile
+
+  webapipractice-1:
+    image: webapipractice-1
+    build:
+      context: .
+      dockerfile: WebAPIPractice/Dockerfile
+
+  webapipractice-2:
+    image: webapipractice-2
+    build:
+      context: .
+      dockerfile: WebAPIPractice/Dockerfile

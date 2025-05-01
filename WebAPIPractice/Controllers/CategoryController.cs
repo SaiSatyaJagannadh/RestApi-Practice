@@ -6,7 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPIPractice.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    // [Route("api/[controller]/[action]")]
+    // [ApiController]
+    
+    
+    [ApiExplorerSettings(IgnoreApi = true)]
+    [Route("api/[controller]")]
     [ApiController]
     public class CategoryController : ControllerBase
     {

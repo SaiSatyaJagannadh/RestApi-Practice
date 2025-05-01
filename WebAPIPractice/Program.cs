@@ -20,13 +20,30 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddEndpointsApiExplorer();
 
 
+// var dockerConnectionString = Environment.GetEnvironmentVariable("MSSQLConnectionString");
+//
+// builder.Services.AddDbContext<EcommerceDbContext>(option =>
+// {
+//     option.UseSqlServer(dockerConnectionString);
+// });
 
+
+var dockerConnectionString = Environment.GetEnvironmentVariable("MSSQLConnectionString");
+var fallbackConnection = builder.Configuration.GetConnectionString("ECommerceDB");
 
 builder.Services.AddDbContext<EcommerceDbContext>(option =>
 {
-    option.UseSqlServer(builder.Configuration.GetConnectionString("ECommerceDB"));
-
+    option.UseSqlServer(dockerConnectionString ?? fallbackConnection);
 });
+
+
+
+// builder.Services.AddDbContext<EcommerceDbContext>(option =>
+// {
+//     option.UseSqlServer(builder.Configuration.GetConnectionString("ECommerceDB"));
+//
+// });
+
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
@@ -55,3 +72,5 @@ app.Run();
 
 //we use routing 
 app.UseRouting();
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
